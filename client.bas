@@ -14,7 +14,7 @@ Sub sync_with_server()
     top_of_messages = "B3"
     bottom_of_messages = "B23"
     
-    root_folder = "C:\Users\trist\Source\excel-messenger"
+    root_folder = Application.ActiveWorkbook.Path
 
     Set message_window = Range(top_of_messages & ":" & bottom_of_messages)
 
@@ -35,5 +35,5 @@ Sub sync_with_server()
 End Sub
 
 Private Sub Auto_Open()
-    Call sync_with_server
+    Call sync_with_serv
 End Sub

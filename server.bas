@@ -48,7 +48,7 @@ Sub run_server()
     
     update_period = 20
     number_of_clients = 1
-    root_folder = "C:\Users\trist\Source\excel-messenger"
+    root_folder = Application.ActiveWorkbook.Path
       
     Set buffer_cell = range("B25")
 
