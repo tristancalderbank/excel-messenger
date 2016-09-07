@@ -9,6 +9,8 @@ Features:
 - Server references nicknames and messages from client worksheets, adding them to the master chat list and shifting everything up
 - All sheets are autosaving constantly
 - Messages can take over 40 seconds to be received! Wow!
+- If you have another unrelated workbook open, sometimes the code starts writing messages into your workbook instead of the client one (this is handy if you don't want to switch back and forth)
+- Very strong security, anyone can edit anyone else's sheet or even the server sheet, that way everyone can be on the lookout for hackers
 
 New user interface:
  
