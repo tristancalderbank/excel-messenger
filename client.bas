@@ -35,5 +35,5 @@ Sub sync_with_server()
 End Sub
 
 Private Sub Auto_Open()
-    Call sync_with_serv
+    Call sync_with_server
 End Sub
