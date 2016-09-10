@@ -1,7 +1,7 @@
 # excel-messenger
 A silly local group messaging app where the server and all clients are excel workbooks.
 
-[Original blog post](http://tristancalderbank.com/2016/09/06/excel-messenger-a-terrible-experiment-in-vba/) that started this.
+Note: this is not a real app, just an excel demo of the client-server paradigm, see the [original blog post](http://tristancalderbank.com/2016/09/06/excel-messenger-a-terrible-experiment-in-vba/) that started this.
 
 ![folder](https://github.com/tristancalderbank/excel-messenger/blob/master/screenshots/cs-window.PNG?raw=true)
 
@@ -10,9 +10,7 @@ Features:
 - Clients all reference server sheet to get the master chat list
 - Server references nicknames and messages from client worksheets, adding them to the master chat list and shifting everything up
 - All sheets are autosaving constantly
-- Messages can take over 40 seconds to be received! Wow!
-- If you have another unrelated workbook open, sometimes the code starts writing messages into your workbook instead of the client one (this is handy if you don't want to switch back and forth)
-- Very strong security, anyone can edit anyone else's sheet or even the server sheet, that way everyone can be on the lookout for hackers
+- Messages can take over 40 seconds to be received
 
 New user interface:
  
