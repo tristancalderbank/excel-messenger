@@ -1,7 +1,7 @@
 # excel-messenger
 A silly local group messaging app where the server and all clients are excel workbooks.
 
-Note: this is not a real app, just an excel demo of the client-server paradigm, see the [original blog post](http://tristancalderbank.com/2016/09/06/excel-messenger-a-terrible-experiment-in-vba/) that started this.
+Note: this was just a joke, not a real app, see the [original blog post](http://tristancalderbank.com/2016/09/06/excel-messenger-a-terrible-experiment-in-vba/) that started this.
 
 ![folder](https://github.com/tristancalderbank/excel-messenger/blob/master/screenshots/cs-window.PNG?raw=true)
 
